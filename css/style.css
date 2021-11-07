@@ -1,0 +1,112 @@
+* {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bg-imgHome {
+  background-image: url(../imges/VM_topMatrimoni02.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#hiddenSidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+
+.page-links {
+  background-color: rgba(153, 153, 153, 0.7);
+  color: white;
+  float: left;
+  padding: 3rem;
+  padding-bottom: 17rem;
+}
+
+.page-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-links a:hover {
+  color: rgb(0, 0, 0 , .5);
+}
+
+#toggleBtn {
+  margin-top: 40vh;
+  cursor: pointer;
+  float: left;
+  color: white;
+  font-size: 2rem;
+  padding: .35rem;
+  background-color: rgb(231, 39, 71);
+  border-radius: .25rem;
+}
+
+.fs-h1 {
+  font-size: 5rem;
+}
+
+.text-cflower {
+  color: rgb(231, 39, 71);
+}
+
+#counterBox {
+  border: solid 3px gray;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-imgCounter {
+  background-image: url(../imges/71TUcQB60jL._AC_SL1428_.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.con-social {
+  margin-top: 60px;
+  color: #777;
+}
+
+.con-social i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.con-social i:hover {
+  background-color: #777;
+  color: white;
+}
+
+.bg-footer {
+  background-color: rgb(214, 210, 210);
+}
+
+.singer {
+  cursor: pointer;
+}
+
+.new-display {
+  display: none;
+}
+
+.bg-hiddenText {
+  background-color: rgba(248, 134, 114, 0.5);
+}
+
+#expired {
+  display: none;
+}

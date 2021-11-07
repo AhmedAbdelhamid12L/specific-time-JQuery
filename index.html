@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JQuery-Assignment</title>
+  </head>
+  <body>
+    <!-- **** home section **** -->
+    <section
+      id="home"
+      class="vh-100 bg-imgHome d-flex justify-content-center align-items-center"
+    >
+      <div class="pb-5 text-cflower">
+        <h1 class="fs-h1">MY WEDDING</h1>
+        <p class="fs-3 text-center pb-5 mb-5">25/10/2021</p>
+      </div>
+    </section>
+    <!-- **** hidden Sidebar section **** -->
+    <section id="hiddenSidebar">
+      <div class="page-links">
+        <h2 class="py-3">
+          <a href="#home">home</a>
+        </h2>
+        <h2 class="py-3">
+          <a href="#hiddenText">info</a>
+        </h2>
+        <h2 class="py-3">
+          <a href="#counter">date</a>
+        </h2>
+        <h2 class="pt-3 pb-5">
+          <a href="#contact">contact</a>
+        </h2>
+      </div>
+      <i class="fas fa-bars" id="toggleBtn"></i>
+    </section>
+    <!-- **** hidden Text section **** -->
+    <section id="hiddenText" class="py-5 bg-hiddenText text-center">
+      <div class="w-75 m-auto">
+        <div class="singer-card">
+          <div
+            class="
+              bg-danger
+              fs-4
+              fw-bold
+              py-3
+              border-2 border-bottom border-dark
+              singer
+            "
+          >
+            Singer One
+          </div>
+          <p class="bg-gradient">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+        <div class="singer-card">
+          <div
+            class="
+              bg-danger
+              fs-4
+              fw-bold
+              py-3
+              border-2 border-bottom border-dark
+              singer
+            "
+          >
+            Singer Two
+          </div>
+          <p class="bg-gradient new-display">
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur?"
+          </p>
+        </div>
+        <div class="singer-card">
+          <div
+            class="
+              bg-danger
+              fs-4
+              fw-bold
+              py-3
+              border-2 border-bottom border-dark
+              singer
+            "
+          >
+            Singer Three
+          </div>
+          <p class="bg-gradient new-display">
+            "But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system, and expound the actual teachings of the great
+            explorer of the truth, the master-builder of human happiness. No one
+            rejects, dislikes, or avoids pleasure itself, because it is
+            pleasure, but because those who do not know how to pursue pleasure
+            rationally encounter consequences that are extremely painful. Nor
+            again is there anyone who loves or pursues or desires to obtain pain
+            of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure him some
+            great pleasure. To take a trivial example, which of us ever
+            undertakes laborious physical exercise, except to obtain some
+            advantage from it? But who has any right to find fault with a man
+            who chooses to enjoy a pleasure that has no annoying consequences,
+            or one who avoids a pain that produces no resultant pleasure?"
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- **** counter section **** -->
+    <section id="counter" class="bg-imgCounter text-center p-5">
+      <div id="countdown" class="row justify-content-between">
+        <div id="counterBox" class="col-md-2">
+          <div id="days">
+          </div>
+        </div>
+        <div id="counterBox" class="col-md-2">
+          <div id="hours">
+          </div>
+        </div>
+        <div id="counterBox" class="col-md-2">
+          <div id="minutes">
+          </div>
+        </div>
+        <div id="counterBox" class="col-md-2">
+          <div id="seconds">
+          </div>
+        </div>
+      </div>
+      <div id="expired">
+      </div>
+    </section>
+    <!-- **** contact section **** -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center pb-5">
+          <h2 class="fs-1 fw-bolder">Join Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <h3>CONTACT INFO</h3>
+              <p>
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+              <div class="icons">
+                <p>
+                  <i class="fas fa-map-marker"></i> New Street 22545, Nexa Road,
+                  New York City, USA
+                </p>
+                <p class="red">
+                  <i class="fa fa-envelope"></i>
+                  <a href="#" class="text-danger">hello@uigrid.com</a>
+                </p>
+                <p><i class="fa fa-phone"></i> 001-000-000-000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <input
+              class="form-control input-lg mb-3"
+              type="text"
+              placeholder="Enter Name"
+            />
+            <input
+              class="form-control input-lg mb-3"
+              type="email"
+              placeholder="Enter Email"
+            />
+            <textarea
+              class="form-control input-lg mb-3"
+              rows="5"
+              placeholder="Enter Message (max characters 100)"
+              id="charInput"
+            ></textarea>
+            <p><span id="textCount" class="text-danger">100</span> Remaining character</p>
+            <button id="sendBtn" class="btn btn-danger d-block mt-3 m-auto">
+              <a href="#home" class="text-decoration-none text-white"
+                >Send Message</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-4 text-center bg-footer">
+      <div class="con-social">
+        <i class="fab fa-facebook fa-lg"></i>
+        <i class="fab fa-twitter fa-lg"></i>
+        <i class="fab fa-google-plus fa-lg"></i>
+        <i class="fab fa-github fa-lg"></i>
+        <i class="fab fa-behance fa-lg"></i>
+        <i class="fab fa-dribbble fa-lg"></i>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
